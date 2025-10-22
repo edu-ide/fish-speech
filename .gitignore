@@ -111,3 +111,24 @@ ffprobe.exe
 # ----------
 /*.test.sh
 asr-label*
+
+# Custom deployment files
+CLOUDFLARE_SSL_SETUP.md
+NGINX_UPSTREAM_SETUP.md
+SSL_CERTIFICATE_FIX.md
+Tiltfile.extension
+cloudflare-certificate.yaml
+fix-ssl-quick.md
+k8s/
+nginx-upstream-config.conf
+test-nginx-config.sh
+
+# Custom Python scripts
+enhanced_fish_api.py
+fish_direct_engine.py
+fish_speech_s1_mini.py
+simple_tts_test.py
+requirements-enhanced.txt
+
+# Virtual environment
+fish_venv/
